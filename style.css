@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(8, 8, 44);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(98, 145, 255);
+    font-size: 1.04rem;
+}
+
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 2rem;
+}
+
+.leftSection .buttons{
+    padding: 20px 0;
+}
+
+.leftSection .btn{
+    padding: 10px;
+    background: rgb(68, 39, 106);
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rightSection img{
+    width: 80%;
+}
+
+.purple{
+    color: rgb(161, 78, 239);
+}
+
+.text-gray{
+    color: gray;
+}
+
+#element{
+    color: rgb(239, 78, 217);
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.top1{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.top2{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.top3{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.top4{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+
+.vertical-disc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+footer{
+    background-color: rgb(0, 0, 64);
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.footer > div{
+    width: 223px;
+}
+
+footer .ffrights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
